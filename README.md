@@ -6,7 +6,7 @@
 * Install and Set Up kubectl on macOS:  
   https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/
 
-# Install Amazon EKS cluster:
+# Install Amazon Elastic Kubernetes Service (EKS) cluster:
 1. Installing eksctl:  
   https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html
 2. Create EKS cluster using eksctl:  
@@ -24,4 +24,13 @@
   https://cloud.google.com/kubernetes-engine/docs/deploy-app-cluster#create_cluster
 
 # Common Kubectl commands:
+* Print the client and server version of Kubectl:  
+  **<code>kubectl version</code>**  
+* Get a list of nodes:  
+  **<code>kubectl get nodes</code>**  
+* Get a list of pods:  
+  **<code>kubectl get pods</code>**  
+* Get a list of deployment:  
+  **<code>kubectl get deployment</code>**  
+
 
