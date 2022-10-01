@@ -19,7 +19,8 @@
 # Install Azure Kubernetes Service (AKS) cluster:
 1. Install Azure CLI:  
   https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
-2. https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli
+2. Deploy an Azure Kubernetes Service cluster using the Azure CLI:  
+  https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli
 
 # Install Google Kubernetes Engine (GKE) cluster:
 1. Download and install the gcloud CLI:  
