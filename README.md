@@ -169,4 +169,3 @@
   **<code>kubectl describe configmaps</code>**  
 * Delete a configmap:  
   **<code>kubectl delete configmap [configmap_name]>/code>**  
-  
