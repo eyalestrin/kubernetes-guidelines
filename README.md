@@ -9,7 +9,7 @@
 # Install Amazon Elastic Kubernetes Service (EKS) cluster:
 1. Installing eksctl:  
   https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html
-2. Create EKS cluster using eksctl:  
+2. Create EKS cluster using eksctl (select "Managed nodes - Linux"):  
   https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html#create-cluster-gs-eksctl
 3. Check EKS cluster status:  
   **<code>aws eks --region us-east-1 describe-cluster --name my-eks-cluster --query cluster.status</code>**  
